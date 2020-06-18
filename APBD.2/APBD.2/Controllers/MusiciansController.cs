@@ -32,7 +32,7 @@ namespace APBD._2.Controllers
             }
         }
 
-        [HttpPut("{idArtist:int")]
+        [HttpPut("{idArtist:int}")]
         public IActionResult UpdateMusicLabel([FromBody] ArtistRequest request)
         {
             try
